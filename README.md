@@ -16,7 +16,9 @@ Tell us (using fictional or redacted examples; **never email secrets or customer
 
 A first paid milestone can cover **CSV normalization, price/stock validation, anomaly and duplicate detection, quotation draft generation, tests and written handoff**. Exact scope, fixed price, payment arrangements, and acceptance criteria are agreed **before** implementation. No one is billed by this repository; it does not collect payments.
 
-**Looking for a ready-made digital tool instead of a custom implementation?** [AR and invoice tracker (Excel, US$11.90)](https://whop.com/ar-tracker/products/accounts-receivable-tracker-for-small-business-excel/) or [WhatsApp sales follow-up kit (US$10.90)](https://whop.com/ar-tracker/products/kit-express-whatsapp-sales-collections-system-for-small-business/). These are separate downloadable products, not capabilities built into this demo.
+**Prefer a ready-made tool with immediate self-service checkout?** For customers in Peru: [CRM Excel + WhatsApp Sales and Collections Kit (S/39.90, Shopify)](https://ixeymq-sh.myshopify.com/kit). The product is a downloadable manual and Excel CRM, not an automated WhatsApp integration or functionality contained in this demo. Checkout discount (PRIMERA39: 15%) is time-limited through 19 October 2026 at 18:59 Lima and subject to confirmation before payment.
+
+For international buyers, separately listed on Whop: [AR and invoice tracker (Excel, US$11.90)](https://whop.com/ar-tracker/products/accounts-receivable-tracker-for-small-business-excel/) or [WhatsApp sales follow-up kit (US$10.90)](https://whop.com/ar-tracker/products/kit-express-whatsapp-sales-collections-system-for-small-business/). These Whop products are separate editions; check their contents and checkout terms before purchase.
 
 ---
 
