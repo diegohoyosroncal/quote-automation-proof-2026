@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "run_utc": "2026-10-17T01:27:02Z",
+  "date_context": "2026-10-16 America/Lima",
+  "method": "GitHub connector readback of motor.py and test_motor.py; isolated Python standard-library execution in authenticated sandbox; no external services contacted by tested program",
+  "files_read_from": "https://github.com/diegohoyosroncal/quote-automation-proof-2026",
+  "test_command": "python -m unittest -v test_motor.py",
+  "test_result": {
+    "exit_code": 0,
+    "tests_run": 10,
+    "tests_passed": 10,
+    "tests_failed": 0,
+    "tests_errors": 0
+  },
+  "demo_command": "python motor.py --out resultados",
+  "demo_result": {
+    "exit_code": 0,
+    "suppliers_fictional": 10,
+    "rows_processed": 51,
+    "valid_products": 50,
+    "rejected_rows": 1,
+    "variation_alerts": 1,
+    "quote_options": 3,
+    "margin_floor_checked": true
+  },
+  "output_files": [
+    "alertas_demo.json",
+    "catalogo_demo.csv",
+    "cotizacion_demo.txt",
+    "registro_prueba.json"
+  ],
+  "verification_bounds": [
+    "Test evidence is a point-in-time assistant-run execution, not GitHub Actions CI.",
+    "All supplier/customer/pricing data synthetic; no production n8n/Google Sheets/WhatsApp APIs tested.",
+    "Customer contracts, receipts, income: none evidenced by this test.",
+    "No recipient was contacted as part of code execution."
+  ],
+  "source_sha_of_files_recorded_by_github": {
+    "motor": "c9c96189bffcae7ab6f852926f5a64d240d9bbde",
+    "tests": "195c30dda6a503b5e2686fe933788e686fb3cca3"
+  }
+}
