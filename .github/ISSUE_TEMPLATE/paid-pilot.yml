@@ -1,0 +1,67 @@
+name: "Request a paid supplier-quotation pilot"
+description: "Ask for a fixed-scope implementation using sample, non-confidential data. This is an inquiry, not an order."
+title: "[PAID PILOT INQUIRY] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This public form does not create a contract or take a payment.**
+        Submit only public, synthetic or redacted examples. Never include customer personal information, credentials, API keys, bank details or private business files. For confidential scoping, use the email link in the repository README instead.
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: What do you want automated?
+      options:
+        - Supplier CSV validation and quote draft
+        - Supplier offer comparison and anomaly flags
+        - Spreadsheet export from quotation data
+        - Other (requires separate feasibility review)
+    validations:
+      required: true
+  - type: textarea
+    id: current-process
+    attributes:
+      label: Current problem
+      description: "Describe what the company currently does manually and the expected result."
+      placeholder: "We receive 2-3 supplier CSV files and manually compare available stock and prices..."
+    validations:
+      required: true
+  - type: textarea
+    id: sample-schema
+    attributes:
+      label: Input and output contract (synthetic examples only)
+      description: "Include column names, an example row with fictional values, desired output and business rules. Do not paste client data."
+      placeholder: "Input: sku, supplier, cost, units, stock, delivery_days. Output: ranked offers plus quote draft..."
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: Acceptance checks and constraints
+      description: "List 2-3 test cases, target format and any excluded integrations."
+      placeholder: "Reject negative prices; never quote zero-stock lines; do not send live WhatsApp messages..."
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Proposed fixed-price budget (optional)
+      placeholder: "USD 100-200"
+    validations:
+      required: false
+  - type: input
+    id: deadline
+    attributes:
+      label: Preferred date (optional)
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: false
+  - type: checkboxes
+    id: acknowledgments
+    attributes:
+      label: Submission acknowledgment
+      options:
+        - label: "I will not submit confidential data, credentials or personally identifying customer information."
+          required: true
+        - label: "I understand this is only a request for a proposal; work and payment must be agreed separately."
+          required: true
