@@ -1,8 +1,22 @@
-# AI-assisted supplier quoting — reproducible synthetic proof
+# Supplier Quote Automation — tested synthetic proof
 
-This **portfolio demo is synthetic**. It is not a completed customer contract, a production n8n deployment, or evidence of paid sales.
+**Ten automated tests passed on the exact code published here** (see [execution receipt](evidence/2026-10-16_execution_receipt.json)). This is a reproducible synthetic-data demo, **not** a paid customer deployment or an n8n/WhatsApp integration.
 
-The Python engine processes 10 fictional suppliers, 50 valid catalogue items and 1 deliberately invalid item. It applies a minimum gross margin, detects anomalous price changes, ranks in-stock matches, writes a quote draft (clearly marked **DEMO — DO NOT SEND**) and creates a traceable output report.
+## Have a supplier-price or quotation workflow to automate?
+
+**[Request a scoped paid pilot by email](mailto:diegohoyos2024@gmail.com?subject=Paid%20Pilot%20Inquiry%20-%20Supplier%20Quotes)**
+
+Tell us (using fictional or redacted examples; **never email secrets or customer personal information**):
+
+- Current input format (CSV, Excel export, email, etc.) and desired output.
+- Number of suppliers, approximate rows, business rules and required exception flags.
+- Acceptance tests and target delivery date.
+
+A first paid milestone can cover **CSV normalization, price/stock validation, anomaly and duplicate detection, quotation draft generation, tests and written handoff**. Exact scope, fixed price, payment arrangements, and acceptance criteria are agreed **before** implementation. No one is billed by this repository; it does not collect payments.
+
+**Looking for a ready-made digital tool instead of a custom implementation?** [AR and invoice tracker (Excel, US$11.90)](https://whop.com/ar-tracker/products/accounts-receivable-tracker-for-small-business-excel/) or [WhatsApp sales follow-up kit (US$10.90)](https://whop.com/ar-tracker/products/kit-express-whatsapp-sales-collections-system-for-small-business/). These are separate downloadable products, not capabilities built into this demo.
+
+---
 
 ## Run
 
