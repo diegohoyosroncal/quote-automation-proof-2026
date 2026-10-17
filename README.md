@@ -4,6 +4,8 @@
 
 ## Have a supplier-price or quotation workflow to automate?
 
+**[Open a structured paid-pilot inquiry (GitHub)](https://github.com/diegohoyosroncal/quote-automation-proof-2026/issues/new?template=paid-pilot.yml)** — use only fictional or redacted examples. No commitment or payment occurs by submitting.
+
 **[Request a scoped paid pilot by email](mailto:diegohoyos2024@gmail.com?subject=Paid%20Pilot%20Inquiry%20-%20Supplier%20Quotes)**
 
 Tell us (using fictional or redacted examples; **never email secrets or customer personal information**):
